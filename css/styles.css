@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:900');
+
+html {
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+h1  {
+  color: #333; /* this is the fallback */
+  -webkit-text-stroke: 1px #333;
+  -webkit-text-fill-color: transparent;
+  
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 90px;
+  text-align: center;
+}
